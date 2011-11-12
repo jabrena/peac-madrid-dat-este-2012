@@ -4,4 +4,6 @@
     <string name="hello">Hello World, IntentsActivity!</string>
     <string name="app_name">Intents</string>
 	<string name="btnLanzamiento">Lanzar</string>
+	<string name="btnLanzamiento2">Ir a</string>
+	<string name="page2">Esta es la pagina2</string>
 </resources>

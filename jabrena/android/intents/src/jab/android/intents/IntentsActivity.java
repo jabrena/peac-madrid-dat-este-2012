@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.Toast;
 
 
 public class IntentsActivity extends Activity {
@@ -56,5 +57,16 @@ public class IntentsActivity extends Activity {
 				
 			}
 		});
+        
+        Button btnLanzar2 = (Button)findViewById(R.id.button2);
+        btnLanzar2.setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				Toast.makeText(IntentsActivity.this, "Ir a la pagina2", Toast.LENGTH_SHORT).show();
+				Intent intencion = new Intent(IntentsActivity.this, page2.class);
+				startActivity(intencion);
+			}
+        });
     }
 }
