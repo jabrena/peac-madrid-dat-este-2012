@@ -13,4 +13,13 @@
     <!-- Boton -->
     <Button android:text="@string/btnLanzamiento" android:layout_height="wrap_content" android:id="@+id/button1" android:layout_width="wrap_content"></Button>
 
+        
+    <!-- Imagen -->
+    <ImageView 
+   android:id="@+id/test_image"
+   android:src="@drawable/wigman"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   />
+    
 </LinearLayout>
