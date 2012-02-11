@@ -3,5 +3,5 @@
 
     <string name="hello">Hello World, NumbersV2Activity!</string>
     <string name="app_name">NumbersV2</string>
-
+	<string name="page2">Esta es la pagina2</string>
 </resources>

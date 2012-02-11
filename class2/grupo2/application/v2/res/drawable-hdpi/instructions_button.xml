@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
      <item android:state_pressed="true"
-           android:drawable="@drawable/numbersskfondonegro" /> <!-- pressed -->
+           android:drawable="@drawable/numbersskinstruccionesfondonegro" /> <!-- pressed -->
      <item android:state_focused="true"
-           android:drawable="@drawable/numbersskfondonegro" /> <!-- focused -->
-     <item android:drawable="@drawable/numbersskfondonegro" /> <!-- default -->
+           android:drawable="@drawable/numbersskinstruccionesfondonegro" /> <!-- focused -->
+     <item android:drawable="@drawable/numbersskinstruccionesfondonegro" /> <!-- default -->
 </selector>
