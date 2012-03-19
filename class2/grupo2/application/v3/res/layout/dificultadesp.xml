@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+android:id="@+id/widget0"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<Button
+android:id="@+id/facil"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Easy // 1-100 60s"
+android:layout_x="89px"
+android:layout_y="65px"
+>
+</Button>
+<Button
+android:id="@+id/medio"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Medium // 1-100 30s"
+android:layout_x="77px"
+android:layout_y="121px"
+>
+</Button>
+<Button
+android:id="@+id/extremo"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Extreme // 1-1000 30s"
+android:layout_x="73px"
+android:layout_y="239px"
+>
+</Button>
+<Button
+android:id="@+id/dificil"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Difficult // 1-1000 60s"
+android:layout_x="76px"
+android:layout_y="183px"
+>
+</Button>
+</AbsoluteLayout>
+
